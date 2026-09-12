@@ -1,0 +1,6 @@
+{
+  "name": "AO II Written Exam Reviewer",
+  "description": "Comprehensive reviewer and exam simulator for Administrative Officer II (DepEd & Civil Service) featuring lessons, 250+ question mock exams, STAR interview practice, and official document drafting templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

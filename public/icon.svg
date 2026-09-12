@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#514487" />
+      <stop offset="50%" stop-color="#5e4f9b" />
+      <stop offset="100%" stop-color="#6d5cae" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e18a" />
+      <stop offset="100%" stop-color="#e1b93e" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)" />
+  
+  <!-- Outer Gold Shield Accent -->
+  <path d="M256 64 L394 116 C394 270 334 380 256 440 C178 380 118 270 118 116 Z" fill="none" stroke="url(#gold-grad)" stroke-width="12" stroke-linejoin="round" />
+
+  <!-- Inner Soft Backdrop -->
+  <path d="M256 86 L376 132 C376 262 324 358 256 414 C188 358 136 262 136 132 Z" fill="#ffffff" fill-opacity="0.12" />
+
+  <!-- Open Book Symbol (DepEd & Learning) -->
+  <path d="M190 270 C220 250 245 258 256 268 C267 258 292 250 322 270 L322 344 C292 324 267 332 256 342 C245 332 220 324 190 344 Z" fill="#ffffff" />
+  
+  <!-- Star (Civil Service Merit) -->
+  <polygon points="256,150 268,184 304,184 274,206 286,240 256,218 226,240 238,206 208,184 244,184" fill="url(#gold-grad)" />
+</svg>
